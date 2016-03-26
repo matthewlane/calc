@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>calc</title>
+  <style>
+    * {font: 40px sans-serif;}
+    td {
+      background: #6385d0;
+      color: #fff;
+      cursor: pointer;
+      padding: 1em;
+      transition: all 100ms;
+    }
+    #display {
+      background: #ddd;
+      text-align: right;
+    }
+    .clicked {background: #4466b1;}
+  </style>
+</head>
+
+<body>
+  <input type="text" id="display" value="0" readonly>
+
+  <table>
+    <tr>
+      <td>7</td>
+      <td>8</td>
+      <td>9</td>
+      <td>&divide;</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+      <td>&times;</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>.</td>
+      <td>0</td>
+      <td>=</td>
+      <td>+</td>
+    </tr>
+  </table>
+
+  <script src="logic.js"></script>
+</body>
+</html>
