@@ -7,6 +7,7 @@
     * {font: 40px sans-serif;}
     td {
       background: #6385d0;
+      border-radius: 3px;
       color: #fff;
       cursor: pointer;
       padding: 1em;
@@ -17,6 +18,8 @@
       text-align: right;
     }
     .clicked {background: #4466b1;}
+    .operator {background: #8c8f98;}
+    .operator.clicked {background: #686a70;}
   </style>
 </head>
 
@@ -28,25 +31,25 @@
       <td>7</td>
       <td>8</td>
       <td>9</td>
-      <td>&divide;</td>
+      <td class="operator">&divide;</td>
     </tr>
     <tr>
       <td>4</td>
       <td>5</td>
       <td>6</td>
-      <td>&times;</td>
+      <td class="operator">&times;</td>
     </tr>
     <tr>
       <td>1</td>
       <td>2</td>
       <td>3</td>
-      <td>-</td>
+      <td class="operator">-</td>
     </tr>
     <tr>
       <td>.</td>
       <td>0</td>
-      <td>=</td>
-      <td>+</td>
+      <td class="operator">=</td>
+      <td class="operator">+</td>
     </tr>
   </table>
 
